@@ -3,14 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@types/color": "^3.0.0",
-    "@types/jest": "24.0.12",
-    "@types/node": "12.0.0",
-    "@types/react": "16.8.16",
-    "@types/react-dom": "16.8.4",
-    "@types/react-redux": "^7.0.8",
-    "@types/react-router-dom": "^4.3.2",
-    "@types/styled-components": "^4.1.14",
     "color": "^3.1.1",
     "react": "^16.10.1",
     "react-dom": "^16.8.6",
@@ -20,7 +12,18 @@
     "redux": "^4.0.1",
     "redux-devtools-extension": "latest",
     "redux-thunk": "^2.3.0",
-    "styled-components": "^4.2.0",
+    "styled-components": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/color": "^3.0.0",
+    "@types/jest": "24.0.12",
+    "@types/node": "12.0.0",
+    "@types/react": "16.8.16",
+    "@types/react-dom": "16.8.4",
+    "@types/react-redux": "^7.0.8",
+    "@types/react-router-dom": "^4.3.2",
+    "@types/styled-components": "^4.1.14",
+    "nth-check": ">=2.0.1",
     "typescript": "3.4.5"
   },
   "scripts": {
